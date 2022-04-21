@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Updock&display=swap');
+.gallery{
+    height: 400px;
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    overflow: auto;
+    border: 5px double pink;
+    padding: 5px;
+    border-radius: 20px;
+    
+}
+
+.gallery img{
+    height: 100%;
+    width: 100%;
+    flex-shrink: 0;
+    object-fit: cover;
+    position: sticky;
+    top: 0;
+    padding: 5px;
+    border-radius: 20px;
+}
+
+h1{
+    text-align: center;
+    font-family: 'Updock', cursive;
+    font-size: 4.5rem;
+}
